@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    var guid = Request.Query["guid"];
+}
+    <footer>
+        <img src="https://dev.agricor-regtech.de/logo192.png" alt="" width="10" height="10">
+    this is footer of page @guid
+    </footer>
+
